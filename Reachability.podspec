@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/tonymillion/Reachability.git', :tag => "v#{s.version}" }
   s.source_files = 'Reachability.{h,m}'
+  s.public_header_files = 'Reachability.h'
   s.framework    = 'SystemConfiguration'
 
   s.requires_arc = true
